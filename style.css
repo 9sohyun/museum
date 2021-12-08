@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #E0EDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1130px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: #6894D4;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: -0.03em;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover{
+  color: #285AA2;
+  transition: 0.3s;
+}
+
+.empty0{width: 499px;}
+.empty1{width: 52px;}
+
+.box1{width: 98px;}
+.box2{width: 67px;}
+.box3{width: 93px;}
+.box4{width: 58px;}
+
+.wrap1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -300px;
+  height: 1080px;
+}
+
+.card{
+  margin: 10px;
+  position: relative;
+  width: 223px;
+  height: 335px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.content{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 100%;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.card:nth-child(n) .content{
+  background: linear-gradient(to top, dodgerblue, transparent);
+}
+
+.content h2{
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+
+
+.content h2 span{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 18px;
+  color: #B5D5FF;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.content p{
+  display: block;
+  font-size: 14px;
+
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.content h3 a{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 16px;
+  color: #B5D5FF;
+  margin-top: 9px;
+  font-weight: 800;
+  transition: 0.5s
+}
+
+.content h3 a:hover{
+  color: white;
+  transition: 0.5s
+}
+
+.card:hover .content{top: 0;}
+
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 0px 20px rbga(0, 0, 0, 0.21);
+}
+
+
+.cont0{
+  width: 100%;
+  height: 1080px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 130px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pic1{
+  border: solid 0px green;
+}
+
+.cont1{
+  width: 100%;
+  height: 775px;
+  background-color: #ffffff;
+  margin-top: 130px;
+}
+
+.cont2{
+  width: 100%;
+  background-color: #ECF3FC;
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.text{
+  font-size: 13pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  color: #373E48;
+  margin-top: 80px;
+  width: 950px;
+  justify-content: center;
+  align-items: center;
+  border: solid 0px red;
+  position: relative;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 5px solid #B5D5FF;
+  width: 100px;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  padding-top: 200px;
+}
+
+.title h1{
+  font-size: 30pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: #373E48;
+}
+
+.cont3{
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+}
+
+.wrap2{
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+}
+
+.cont4{
+  width: 1100px;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.03em;
+  align-items: center;
+  justify-content: center;
+  border: solid 0px blue;
+}
+
+.cont4 h1{
+  color: #6894D4;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.cont4 h2{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.grayline{
+  border-bottom: solid 1px gray;
+  padding-top: 30px;
+}
+
+.wrap3{
+  width: 1100px;
+  border: solid 0px blue;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  margin-top: 1100px;
+
+}
+
+.title1{
+  font-size: 12pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  position: inherit;
+  border: solid 0px red;
+  margin-left: 25px;
+  margin-top: -81px;
+  position: relative;
+  display: flex;
+}
+
+.title1 h1{
+  border: solid 0px green;
+  font-size: 22pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #373E48;
+}
+
+
+.blackline{
+  border-left: solid 8px gray;
+  height: 75px;
+}
+
+
+
+.text1{
+  font-size: 12pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  color: #373E48;
+  border: solid 0px red;
+  position: relative;
+  margin-top: 40px;
+}
+
+.text1 h3{
+  font-size: 12pt;
+  font-weight: 400;
+  color: #6894D4;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.box0{
+  width: 100%;
+  height: 2500px;
+  background-color: #ffffff;
+}
+
+iframe{
+  padding-top: -40px;
+}
+
+footer{
+  width: 100%;
+  height: 110px;
+  background-color: #D6DAE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #A8AEB7;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 10pt;
+  font-weight: 200;
+}

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1130px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: #6894D4;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: -0.03em;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover{
+  color: #C6D9F5;
+  transition: 0.3s;
+}
+
+.empty0{width: 499px;}
+.empty1{width: 52px;}
+
+.box1{width: 98px;}
+.box2{width: 67px;}
+.box3{width: 93px;}
+.box4{width: 58px;}
+
+.main_wrap{
+  background-image: url('img/main_bg.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  width: 100%;
+}
+
+.main{
+  height: 900px;
+  background-image: url('img/main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img{
+  margin-left: 750px;
+  margin-top: -250px;
+}
+
+.cont1{
+  width: 100%;
+  height: 700px;
+  background-color: #F5F9FF;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 5px solid #B5D5FF;
+  width: 100px;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  padding-top: 200px;
+}
+
+.title h1{
+  font-size: 30pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: #373E48;
+}
+
+
+.wrap1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.card{
+  margin: 10px;
+  position: relative;
+  width: 223px;
+  height: 335px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.content{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 100%;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.card:nth-child(n) .content{
+  background: linear-gradient(to top, dodgerblue, transparent);
+}
+
+.content h2{
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+
+
+.content h2 span{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 18px;
+  color: #B5D5FF;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.content p{
+  display: block;
+  font-size: 14px;
+
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.content h3 a{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  font-size: 16px;
+  color: #B5D5FF;
+  margin-top: 9px;
+  font-weight: 800;
+  transition: 0.5s
+}
+
+.content h3 a:hover{
+  color: white;
+  transition: 0.5s
+}
+
+.card:hover .content{top: 0;}
+
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 0px 20px rbga(0, 0, 0, 0.21);
+}
+
+.cont2{
+  width: 100%;
+  height: 1400px;
+  background-color: white;
+}
+
+.cont2 h2{
+  font-size: 12pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  color: #373E48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+}
+
+.box5{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.bt1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  background-color: #E1EAF5;
+  font-size: 12pt;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: #373E48;
+  transition: 0.2s;
+}
+
+.bt1:hover{
+  transition: 0.2s;
+  background-color: #F5F8FC;
+  color: black;
+}
+
+
+footer{
+  width: 100%;
+  height: 110px;
+  background-color: #D6DAE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #A8AEB7;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.03em;
+  font-size: 10pt;
+  font-weight: 200;
+}
